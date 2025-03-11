@@ -35,7 +35,7 @@ namespace patterns {
 
 // META
 const char meta[]
-    = "Duration: ([0-9]+):([0-9]+):([0-9]+\\.[0-9]*)(, start: ([0-9]+\\.[0-9]*))?, bitrate: ([0-9]+) kb/s";
+    = "Duration: ([0-9]+):([0-9]+):([0-9]+\\.[0-9]*)(, start: (-?[0-9]+\\.[0-9]*))?, bitrate: ([0-9]+) kb/s";
 const char META_HOUR_INDEX = 1;        // matched type: integer
 const char META_MINUTE_INDEX = 2;      // matched type: integer
 const char META_SECOND_INDEX = 3;      // matched type: double
